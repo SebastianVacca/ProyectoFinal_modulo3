@@ -2,7 +2,6 @@ package com.plataforma.service;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.logging.log4j.*;
-
 import com.plataforma.exception.CursoLlenoException;
 import com.plataforma.exception.EstudianteNoEncontradoException;
 import com.plataforma.model.Curso;
@@ -25,7 +24,7 @@ public class InscripcionService {
      * @throws CursoLlenoException
      */
     public void InscribirEstudiante(Curso curso, Estudiante estudiante) throws CursoLlenoException{
-        if (curso.estaLleno()) {
+        if (curso.estaLleno()) {    
             logger.error("Inscripción fallida, No se puede inscribir en el curso {}: cupo lleno", curso.getNombreCurso());
             throw new CursoLlenoException("Curso lleno");
         }

@@ -1,5 +1,6 @@
 package com.plataforma.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Estudiante {
@@ -12,6 +13,7 @@ public class Estudiante {
         this.id = id;
         this.nombre = nombre;
         this.email = email;
+        this.cursosInscritos = new ArrayList<>();
     }
 
     public String getId() {

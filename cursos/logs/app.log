@@ -1,0 +1,9 @@
+2025-09-16 20:55:44 [main] INFO  com.plataforma.service.InscripcionService  - Estudiante Juan inscrito satisfactoriamente en el curso CursoTest
+2025-09-16 20:56:39 [main] INFO  com.plataforma.service.InscripcionService  - Estudiante Juan inscrito satisfactoriamente en el curso CursoTest
+2025-09-16 20:56:39 [main] INFO  com.plataforma.service.InscripcionService  - Estudiante Juanito inscrito satisfactoriamente en el curso CursoTest
+2025-09-16 20:57:57 [main] INFO  com.plataforma.service.InscripcionService  - Estudiante Juan inscrito satisfactoriamente en el curso CursoTest
+2025-09-16 20:57:57 [main] INFO  com.plataforma.service.InscripcionService  - Estudiante Juanito inscrito satisfactoriamente en el curso CursoTest
+2025-09-16 20:57:57 [main] ERROR com.plataforma.service.InscripcionService  - Inscripción fallida, No se puede inscribir en el curso CursoTest: cupo lleno
+2025-09-16 21:02:30 [main] INFO  com.plataforma.service.InscripcionService  - Estudiante Juan inscrito satisfactoriamente en el curso CursoTest
+2025-09-16 21:02:30 [main] INFO  com.plataforma.service.InscripcionService  - Estudiante Juanito inscrito satisfactoriamente en el curso CursoTest
+2025-09-16 21:02:30 [main] ERROR com.plataforma.service.InscripcionService  - Inscripción fallida, No se puede inscribir en el curso CursoTest: cupo lleno

@@ -3,7 +3,6 @@ package com.plataforma.service;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.logging.log4j.*;
-
 import com.plataforma.exception.CursoNoEncontradoException;
 import com.plataforma.model.Curso;
 
