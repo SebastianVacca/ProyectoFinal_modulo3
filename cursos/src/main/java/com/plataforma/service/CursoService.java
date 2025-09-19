@@ -14,6 +14,10 @@ public class CursoService {
 
     public CursoService(){
         this.cursos = new ArrayList<>();
+    }    
+
+    public List<Curso> getCursos() {
+        return cursos;
     }
 
     /**

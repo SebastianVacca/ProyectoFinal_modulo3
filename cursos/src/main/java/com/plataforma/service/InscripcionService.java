@@ -43,7 +43,7 @@ public class InscripcionService {
      * @throws EstudianteNoEncontradoException
      */
     public List<Inscripcion> BuscarInscripcionPorEstudiante(Estudiante estudiante) throws EstudianteNoEncontradoException{
-        //se crea una lista para guardar las inscripciones del estudsinte
+        //se crea una lista para guardar las inscripciones del estudiantes
         List<Inscripcion> inscripcionesEstudiante = new ArrayList<>();
 
         for (Inscripcion inscripcion : inscripciones) {

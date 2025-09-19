@@ -7,3 +7,22 @@
 2025-09-16 21:02:30 [main] INFO  com.plataforma.service.InscripcionService  - Estudiante Juan inscrito satisfactoriamente en el curso CursoTest
 2025-09-16 21:02:30 [main] INFO  com.plataforma.service.InscripcionService  - Estudiante Juanito inscrito satisfactoriamente en el curso CursoTest
 2025-09-16 21:02:30 [main] ERROR com.plataforma.service.InscripcionService  - Inscripción fallida, No se puede inscribir en el curso CursoTest: cupo lleno
+2025-09-18 20:00:57 [main] INFO  com.plataforma.service.CursoService  - Curso agregado: Java
+2025-09-18 20:03:55 [main] INFO  com.plataforma.service.CursoService  - Curso agregado: Java
+2025-09-18 20:13:42 [main] INFO  com.plataforma.service.CursoService  - Curso agregado: Java
+2025-09-18 20:13:42 [main] INFO  com.plataforma.service.CursoService  - Curso agregado: Python
+2025-09-18 20:17:18 [main] INFO  com.plataforma.service.CursoService  - Curso agregado: Java
+2025-09-18 20:17:18 [main] INFO  com.plataforma.service.CursoService  - Curso agregado: Python
+2025-09-18 20:17:18 [main] WARN  com.plataforma.service.CursoService  - Curso no encontrado: C003
+2025-09-18 20:34:04 [main] INFO  com.plataforma.service.CursoService  - Curso agregado: Java
+2025-09-18 20:38:22 [main] INFO  com.plataforma.service.CursoService  - Curso agregado: Java
+2025-09-18 20:42:04 [main] INFO  com.plataforma.service.InscripcionService  - Estudiante Juan inscrito satisfactoriamente en el curso Java
+2025-09-18 20:42:19 [main] INFO  com.plataforma.service.InscripcionService  - Estudiante Juan inscrito satisfactoriamente en el curso Java
+2025-09-18 20:46:49 [main] ERROR com.plataforma.service.InscripcionService  - Inscripción fallida, No se puede inscribir en el curso Java: cupo lleno
+2025-09-18 20:47:37 [main] INFO  com.plataforma.service.InscripcionService  - Estudiante Juan inscrito satisfactoriamente en el curso Java
+2025-09-18 20:47:37 [main] ERROR com.plataforma.service.InscripcionService  - Inscripción fallida, No se puede inscribir en el curso Java: cupo lleno
+2025-09-18 20:48:03 [main] INFO  com.plataforma.service.InscripcionService  - Estudiante Juan inscrito satisfactoriamente en el curso Java
+2025-09-18 20:48:03 [main] ERROR com.plataforma.service.InscripcionService  - Inscripción fallida, No se puede inscribir en el curso Java: cupo lleno
+2025-09-18 21:04:08 [main] INFO  com.plataforma.service.InscripcionService  - Estudiante Juan inscrito satisfactoriamente en el curso Java
+2025-09-18 21:04:08 [main] INFO  com.plataforma.service.InscripcionService  - Se encontraron las siguientes inscricpciones [Inscripción{estudiante= Estudiante{id='E001', nombre='Juan', email='juan@email.com'}, curso= Curso{codigo= 'C001', nombre= 'Java', capacidad= 1, estudiantes Inscritos=[Estudiante{id='E001', nombre='Juan', email='juan@email.com'}]}, fechaInscripción= 2025-09-18}] para el estudiante con el id E001
+2025-09-18 21:07:20 [main] WARN  com.plataforma.service.InscripcionService  - No se encontraron inscripciones para el estudiante Juan
